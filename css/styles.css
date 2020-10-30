@@ -1,14 +1,52 @@
-  body {
-    background-color: #EAF6F6;
-  }
+/**********************Tag Selector*****************/
+body {
+  background-color: #EAF6F6;
+  margin-left: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 90%;
+  font-weight: normal;
+  line-height: 140%;
 
-  hr {
-    border-color: grey;
-    border-style: dotted none none none;
-    border-width: 5px;
-    width: 10%;
-  }
-  h1{
-    color: #66BFBF;
-  }
-  h3{color: #2d6187;}
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #2d6187;
+  margin-left: 30px;
+}
+
+a {
+  font-size: 17px;
+}
+
+/**********************class Selector*****************/
+.pic {
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  box-shadow: 8px 8px 5px 0 rgba(86, 109, 84, 0.52);
+  filter: url("filters.svg#filter-id");
+}
+
+.int {
+  font-family: 'Open Sans', sans-serif; ;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  line-height: 140%;
+  text-align: justify;
+  width: 40%;
+}
